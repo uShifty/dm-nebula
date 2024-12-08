@@ -4,6 +4,9 @@
       <i18n-t keypath="general.made_by" scope="global">
         <a href="https://emilcarlsson.se/" class="copyright">Emil Carlsson</a>
       </i18n-t>
+      <i18n-t keypath="general.edited_by" scope="global">
+        <a href="https://github.com/iiKline" class="copyright">Kline</a>
+      </i18n-t>
       <i18n-t v-if="translatedBy" keypath="general.translated_by" scope="global">
         <a :href="translatedBy.url">{{ translatedBy.username }}</a>
       </i18n-t>
