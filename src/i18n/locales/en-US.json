@@ -26,7 +26,7 @@
     "made_by": "Made by {0}",
     "edited_by": ", Edited by {0}",
     "mastery": "Mastery",
-    "mobile_nav_support_link": "Support me by buying me a beer 🍺",
+    "mobile_nav_support_link": "Support me by buying the creator a beer 🍺",
     "multiplayer": "Multiplayer",
     "no_favorites_placeholder": "You don't have any favorites yet. Click the {star} icon on a {type} to add it to your favorites.",
     "remove_all": "Remove all",
@@ -37,7 +37,7 @@
     "search": "Search",
     "setting": "Setting | Settings",
     "show": "Show",
-    "support_notice_link": "buying me a beer",
+    "support_notice_link": "buying the creator a beer",
     "support_notice": "If you like this tracker, show your appreciation by {link} 🍺",
     "translated_by": ", translated by {0}",
     "tools": "Tools",
@@ -125,7 +125,7 @@
       "previous_trackers": "Previous trackers",
       "subtitle": "Keep track of your progress to the Dark Matter, Nebula and Abyss camouflages with this easy-to-use tracker.",
       "support_me_description": "You can support me by {0} 🍺, it'd be greatly appreciated!",
-      "support_me_link": "buying me a beer",
+      "support_me_link": "buying the creator a beer",
       "support_me": "Support me",
       "title": "Simple, lightweight & intuitive",
       "tools": "Tools",
@@ -140,7 +140,7 @@
     "mastery": {
       "completed_modal": {
         "body": "Congratulations on finishing all mastery challenges! That's quite the feat! You first started tracking your grind here {duration} on {date}.",
-        "support_link": "buying me a beer",
+        "support_link": "buying the creator a beer",
         "support": "If you liked this tracker, show your appreciation by spreading the word about it and if you're feeling generous please consider {0} as a thanks. Hope I see you on the battlefield! Cheers! 🍺",
         "title": "Mastery challenges completed 👏🥳"
       },
@@ -231,7 +231,7 @@
     "warzone": {
       "completed_modal": {
         "body": "Congratulations on finishing all Warzone camouflages! That's quite the feat! You first started tracking your grind here {duration} on {date}.",
-        "support_link": "buying me a beer",
+        "support_link": "buying the creator a beer",
         "support": "If you liked this tracker, show your appreciation by spreading the word about it and if you're feeling generous please consider {0} as a thanks. Hope I see you on the battlefield! Cheers! 🍺",
         "title": "Warzone camouflages completed 👏🥳"
       },
@@ -244,7 +244,7 @@
       "completed_in_category": "Weapons completed in category",
       "completed_modal": {
         "body": "Congratulations on finishing the Dark Matter camouflage grind! It's been a long ride! You first started tracking your grind here {duration} on {date}.",
-        "support_link": "buying me a beer",
+        "support_link": "buying the creator a beer",
         "support": "If you liked this tracker, show your appreciation by spreading the word about it and if you're feeling generous please consider {0} as a thanks. Hope I see you on the battlefield! Cheers! 🍺",
         "title": "Multiplayer camouflages completed! 👏🥳"
       },
@@ -262,7 +262,7 @@
     "zombies": {
       "completed_modal": {
         "body": "Congratulations on finishing the Nebula camouflage grind! That's quite the feat! You first started tracking your grind here {duration} on {date}.",
-        "support_link": "buying me a beer",
+        "support_link": "buying the creator a beer",
         "support": "If you liked this tracker, show your appreciation by spreading the word about it and if you're feeling generous please consider {0} as a thanks. Hope I see you on the battlefield! Cheers! 🍺",
         "title": "Zombie camouflages completed 👏🥳"
       },

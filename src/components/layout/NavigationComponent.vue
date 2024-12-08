@@ -2,7 +2,7 @@
   <nav class="container">
     <router-link to="/" class="logo">
       <div class="icon"></div>
-      <p><span>Nebula</span></p>
+      <p><span>DM-Nebula</span></p>
     </router-link>
     <div>
       <router-link to="/">{{ $t('general.multiplayer') }}</router-link>
