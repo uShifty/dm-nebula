@@ -47,8 +47,8 @@ const specialCamouflages = {
     },
 
     warzone: {
-      '?': null,
-      '??': null,
+      'Lush Rift': null,
+      'Amethyst Glow': null,
     },
   },
 }
