@@ -2,7 +2,7 @@
   <div class="overall-progress-component">
     <div class="counter" v-for="(counter, name) in overallProgress" :key="name">
       <img
-        :src="`https://emilcarlsson.se/nebula/camouflages/${name
+        :src="`/src/assets/camouflages/${name
           .toLowerCase()
           .replace(' ', '-')}.png`"
         :alt="name"
