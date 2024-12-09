@@ -4,7 +4,8 @@
       <img
         :src="`/src/assets/camouflages/${name
           .toLowerCase()
-          .replace(' ', '-')}.png`"
+          .replace(/ /g, '-')
+          .replace(/'/g, '')}.png`"
         :alt="name"
         onerror="javascript:this.src='/military-gradient.svg'" />
       <p>
@@ -52,7 +53,7 @@ export default {
           'Gold Tiger': weapons.filter((w) => w.progress.warzone['Gold Tiger']).length,
           "King's Ransom": weapons.filter((w) => w.progress.warzone["King's Ransom"]).length,
           'Catalyst': weapons.filter((w) => w.progress.warzone['Catalyst']).length,
-          'Abyssal': weapons.filter((w) => w.progress.warzone['Abyssal']).length,
+          'Abyss': weapons.filter((w) => w.progress.warzone['Abyss']).length,
         }
       } else {
         return {}
