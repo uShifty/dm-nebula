@@ -20,6 +20,12 @@
 import { mapState } from 'pinia'
 import { useStore } from '@/stores/store'
 
+const progressCategories = {
+  multiplayer: ['Gold', 'Diamond', 'Dark Spine', 'Dark Matter'],
+  zombies: ['Mystic Gold', 'Opal', 'Afterlife', 'Nebula'],
+  warzone: ['Gold Tiger', "King's Ransom", 'Catalyst', 'Abyss'],
+};
+
 export default {
   props: {
     mode: {
@@ -32,34 +38,16 @@ export default {
     ...mapState(useStore, ['weapons']),
 
     overallProgress() {
-      const { mode, weapons } = this
+      const { mode, weapons } = this;
 
-      if (mode === 'multiplayer') {
-        return {
-          'Gold': weapons.filter((w) => w.progress.multiplayer['Gold']).length,
-          'Diamond': weapons.filter((w) => w.progress.multiplayer['Diamond']).length,
-          'Dark Spine': weapons.filter((w) => w.progress.multiplayer['Dark Spine']).length,
-          'Dark Matter': weapons.filter((w) => w.progress.multiplayer['Dark Matter']).length,
-        }
-      } else if (mode === 'zombies') {
-        return {
-          'Mystic Gold': weapons.filter((w) => w.progress.zombies['Mystic Gold']).length,
-          'Opal': weapons.filter((w) => w.progress.zombies['Opal']).length,
-          'Afterlife': weapons.filter((w) => w.progress.zombies['Afterlife']).length,
-          'Nebula': weapons.filter((w) => w.progress.zombies['Nebula']).length,
-        }
-      } else if (mode === 'warzone') {
-        return {
-          'Gold Tiger': weapons.filter((w) => w.progress.warzone['Gold Tiger']).length,
-          "King's Ransom": weapons.filter((w) => w.progress.warzone["King's Ransom"]).length,
-          'Catalyst': weapons.filter((w) => w.progress.warzone['Catalyst']).length,
-          'Abyss': weapons.filter((w) => w.progress.warzone['Abyss']).length,
-        }
-      } else {
-        return {}
+      if (progressCategories[mode]) {
+        return progressCategories[mode].reduce((result, category) => {
+          result[category] = weapons.filter((w) => w.progress[mode][category]).length;
+          return result;
+        }, {});
       }
+      return {};
     },
-
     totalWeapons() {
       return this.weapons.length
     },
