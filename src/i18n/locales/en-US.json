@@ -321,6 +321,7 @@
       "rapid_kills": "{amount} kills rapidly {times} times",
       "scorestreaks": "{amount} enemy scorestreaks destroyed",
       "scorestreaks_or_enemy_equipment": "{amount} scorestreaks or enemy equipment destroyed",
+      "scorestreaks_or_enemy_equipment_or_field_upgrade_sm": "{amount} scorestreaks, enemy equipment, field upgrade destroyed {times} times",
       "special_zombie_eliminations": "{amount} Special Zombie eliminations",
       "special_zombie_kills": "{amount} Special Zombie kills",
       "triple_kills": "{amount} triple kills",
