@@ -58,7 +58,7 @@ All languages are welcome and to contribute a new language just follow these ste
 2. Create a new `.json` file in `./src/i18n/locales/` with the desired locale.
 3. Copy the contents of the `en-US.json` file in the same directory.
 4. Translate all values to the desired language.
-5. Add your new locale file in [./i18n/locales.js](https://github.com/carlssonemil/nebula/blob/main/src/i18n/locales.js):
+5. Add your new locale file in [./i18n/locales.js](https://github.com/iiKline/dm-nebula/blob/main/src/i18n/locales.js):
 ```javascript
 import enUs from './locales/en-US.json'
 import svSE from './locales/sv-SE.json'

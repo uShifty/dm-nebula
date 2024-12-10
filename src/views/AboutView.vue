@@ -21,7 +21,7 @@
         <a href="https://vuejs.org/">Vue</a>
         <a href="https://vercel.com/">Vercel</a>
         <a href="https://plausible.io/">Plausible</a>
-        <a href="https://github.com/carlssonemil/nebula">GitHub</a>
+        <a href="https://github.com/iiKline/dm-nebula">GitHub</a>
       </i18n-t>
     </p>
 

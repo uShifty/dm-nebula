@@ -11,7 +11,7 @@
         {{ $t('general.alert.development_notice') }}
         {{ $t('general.alert.encounter_issues') }}
         
-        <a href="https://github.com/carlssonemil/nebula/issues/new?title=[Bug]%20" target="_blank"
+        <a href="https://github.com/iiKline/dm-nebula/issues/new?title=[Bug]%20" target="_blank"
           >{{ $t('general.alert.report_link_text') }}</a>. 
         
         {{ $t('general.alert.missing_images_notice') }} {{ $t('general.alert.thank_you') }}

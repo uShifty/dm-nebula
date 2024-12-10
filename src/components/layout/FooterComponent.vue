@@ -5,7 +5,10 @@
         <a href="https://emilcarlsson.se/" class="copyright">Emil Carlsson</a>
       </i18n-t>
       <i18n-t keypath="general.edited_by" scope="global">
-        <a href="https://github.com/iiKline" class="copyright">Kline</a>
+        <a href="https://github.com/iiKline" class="copyright">iiKline</a>
+      </i18n-t>
+      <i18n-t keypath="general.edited_by2" scope="global">
+        <a href="https://github.com/uShifty" class="copyright">uShifty</a>
       </i18n-t>
       <i18n-t v-if="translatedBy" keypath="general.translated_by" scope="global">
         <a :href="translatedBy.url">{{ translatedBy.username }}</a>
@@ -16,10 +19,10 @@
       <router-link to="/about">{{ $t('general.about') }}</router-link>
       <router-link to="/tools">{{ $t('general.tools') }}</router-link>
       <router-link to="/requirements">{{ $tc('general.requirement', 2) }}</router-link>
-      <a href="https://github.com/carlssonemil/nebula/issues/new?title=[Bug]%20" target="_blank">
+      <a href="https://github.com/iiKline/dm-nebula/issues/new?title=[Bug]%20" target="_blank">
         {{ $tc('general.report_an_issue') }}
       </a>
-      <a href="https://github.com/carlssonemil/nebula" v-tippy="{ content: 'GitHub' }" class="icon">
+      <a href="https://github.com/iiKline/dm-nebula" v-tippy="{ content: 'GitHub' }" class="icon">
         <IconComponent name="github" />
       </a>
       <a href="https://discord.gg/VzKpZbBPkM" v-tippy="{ content: 'Discord' }" class="icon">

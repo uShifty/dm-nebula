@@ -18,10 +18,10 @@
         <router-link to="/about">{{ $t('general.about') }}</router-link>
         <router-link to="/tools">{{ $t('general.tools') }}</router-link>
         <router-link to="/requirements">{{ $tc('general.requirement', 2) }}</router-link>
-        <a href="https://github.com/carlssonemil/nebula/issues/new?title=[Bug]%20" target="_blank">
+        <a href="https://github.com/iiKline/dm-nebula/issues/new?title=[Bug]%20" target="_blank">
           {{ $t('general.report_an_issue') }}
         </a>
-        <a href="https://github.com/carlssonemil/nebula">
+        <a href="https://github.com/iiKline/dm-nebula">
           <IconComponent name="github" />
           GitHub
         </a>
