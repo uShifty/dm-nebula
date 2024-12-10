@@ -1,8 +1,8 @@
-# Nebula
+# DM-Nebula
 
 ## Simple, lightweight & intuitive camouflage tracker
 
-Nebula is a Call of Duty Black Ops 6 (2024) camouflage tracker to easily manage your progress towards the Dark Matter, Nebula and Abyss camouflages. This tool is a sequel to the tracker tools made for [Modern Warfare (2019)](https://damascus.vercel.app/), [Cold War (2020)](https://coldwar.vercel.app/), [Vanguard (2021)](https://vanguard.emca.app/), [Modern Warfare II (2022)](https://orion.emca.app/) and [Modern Warfare III (2023)](https://interstellar.emca.app/).
+DM-Nebula is a Call of Duty Black Ops 6 (2024) camouflage tracker to easily manage your progress towards the Dark Matter, Nebula and Abyss camouflages. This tool is a sequel to the tracker tools made for [Modern Warfare (2019)](https://damascus.vercel.app/), [Cold War (2020)](https://coldwar.vercel.app/), [Vanguard (2021)](https://vanguard.emca.app/), [Modern Warfare II (2022)](https://orion.emca.app/) and [Modern Warfare III (2023)](https://interstellar.emca.app/).
 
 ## Features
 
@@ -14,7 +14,7 @@ Nebula is a Call of Duty Black Ops 6 (2024) camouflage tracker to easily manage 
 
 ## Bug reports & feature requests
 
-If you've found a bug or want to request a feature, feel free to [open an issue](https://github.com/iiKline/nebula/issues/new). Try to be as descriptive as possible.
+If you've found a bug or want to request a feature, feel free to [open an issue](https://github.com/iiKline/dm-nebula/issues/new). Try to be as descriptive as possible.
 
 ## Tech Stack
 
@@ -29,12 +29,12 @@ If you've found a bug or want to request a feature, feel free to [open an issue]
 
 ## Contributing
 
-Want to contribute to this project? Read our [contributing guidelines](https://github.com/iiKline/nebula/blob/main/CONTRIBUTING.md).
+Want to contribute to this project? Read our [contributing guidelines](https://github.com/iiKline/dm-nebula/blob/main/CONTRIBUTING.md).
 
 ### I18n - Internationalization and localization
 
-Want to help add more languages to the tracker? See [this section](https://github.com/iiKline/nebula/blob/main/CONTRIBUTING.md#i18n---internationalization-and-localization) in the [contributing guidelines](https://github.com/iiKline/nebula/blob/main/CONTRIBUTING.md).
+Want to help add more languages to the tracker? See [this section](https://github.com/iiKline/dm-nebula/blob/main/CONTRIBUTING.md#i18n---internationalization-and-localization) in the [contributing guidelines](https://github.com/iiKline/dm-nebula/blob/main/CONTRIBUTING.md).
 
 ## License
 
-Code released under the [MIT License](https://github.com/iiKline/nebula/blob/main/LICENSE).
+Code released under the [MIT License](https://github.com/iiKline/dm-nebula/blob/main/LICENSE).
