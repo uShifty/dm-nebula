@@ -57,7 +57,7 @@
           v-tippy="{ placement: 'bottom' }">
           <div :class="['inner', { completed: camouflage.completed }]">
             <img
-              :src="`/src/assets/camouflages/${convertToKebabCase(
+              :src="`/camouflages/${convertToKebabCase(
                 camouflage.name
               )}.png`"
               :alt="camouflage.name"
@@ -96,7 +96,7 @@
           v-tippy="{ placement: 'bottom' }">
           <div :class="['inner', { completed: camouflage.completed }]">
             <img
-              :src="`/src/assets/camouflages/${convertToKebabCase(
+              :src="`/camouflages/${convertToKebabCase(
                 camouflage.name
               )}.png`"
               :alt="camouflage.name"

@@ -2,7 +2,7 @@
   <div class="overall-progress-component">
     <div class="counter" v-for="(counter, name) in overallProgress" :key="name">
       <img
-        :src="`/src/assets/camouflages/${name
+        :src="`/camouflages/${name
           .toLowerCase()
           .replace(/ /g, '-')
           .replace(/'/g, '')}.png`"
