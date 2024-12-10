@@ -33,7 +33,7 @@ Want to contribute to this project? Read our [contributing guidelines](https://g
 
 ### I18n - Internationalization and localization
 
-Want to help add more languages to the tracker? See [this section](https://github.com/iiKline/nebula/blob/main/CONTRIBUTING.md#i18n---internationalization-and-localization) in the [contributing guidelines](https://github.com/carlssonemil/nebula/blob/main/CONTRIBUTING.md).
+Want to help add more languages to the tracker? See [this section](https://github.com/iiKline/nebula/blob/main/CONTRIBUTING.md#i18n---internationalization-and-localization) in the [contributing guidelines](https://github.com/iiKline/nebula/blob/main/CONTRIBUTING.md).
 
 ## License
 
