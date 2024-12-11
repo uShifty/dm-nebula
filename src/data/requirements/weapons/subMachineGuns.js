@@ -13,8 +13,8 @@ const specialCamouflages = {
     },
 
     warzone: {
-      '?': null,
-      '??': null,
+      'Clouded': { amount: 5, type: 'kills_on_most_wanted_target' },
+      'Puma': { amount: 5, type: 'kills_after_reloading' },
     },
   },
 
@@ -30,8 +30,8 @@ const specialCamouflages = {
     },
 
     warzone: {
-      '?': null,
-      '??': null,
+      'Raven': { amount: 10, type: 'hipfire_kills' },
+      'Radical': { amount: 5, type: 'kills_shortly_after_sprinting' },
     },
   },
 
@@ -47,8 +47,8 @@ const specialCamouflages = {
     },
 
     warzone: {
-      '?': null,
-      '??': null,
+      'Viscous': { amount: 5, type: 'kills_while_under_uav'},
+      'Pulped': { amount: 5, type: 'kills_while_moving' },
     },
   },
 
@@ -64,8 +64,8 @@ const specialCamouflages = {
     },
 
     warzone: {
-      '?': null,
-      '??': null,
+      'Blend': { amount: 2, type: 'kills_without_reloading', times: 15 },
+      'Lurking Beast': { amount: 5, type: 'kills_while_impaired_by_tactical' },
     },
   },
 
@@ -81,8 +81,8 @@ const specialCamouflages = {
     },
 
     warzone: {
-      '?': null,
-      '??': null,
+      'Bellyflop': { amount: 10, type: 'hipfire_kills'},
+      'Hellscream': { amount: 10, type: 'kills_while_moving' },
     },
   },
 
@@ -98,8 +98,8 @@ const specialCamouflages = {
     },
 
     warzone: {
-      '?': null,
-      '??': null,
+      'Blue Lagoon': { amount: 5, type: 'point_blank_kills' },
+      'Firethorn': { amount: 5, type: 'kills_after_sliding' },
     },
   },
 
