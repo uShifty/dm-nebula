@@ -46,15 +46,6 @@
         <router-link to="/tools">{{ $t('pages.about.tools_link') }}</router-link>
       </i18n-t>
     </p>
-
-    <h4>{{ $t('pages.about.support_me') }}</h4>
-    <p>
-      <i18n-t keypath="pages.about.support_me_description" scope="global">
-        <a href="https://www.buymeacoffee.com/emilcarlsson">{{
-          $t('pages.about.support_me_link')
-        }}</a>
-      </i18n-t>
-    </p>
   </div>
 </template>
 
