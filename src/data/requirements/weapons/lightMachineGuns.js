@@ -13,8 +13,8 @@ const specialCamouflages = {
     },
 
     warzone: {
-      '?': null,
-      '??': null,
+      'Destined': { amount: 2, type: 'kills_without_taking_damage', times: 5 },
+      'Bravery': { amount: 5, type: 'kills_on_most_wanted_target' },
     },
   },
 
@@ -30,8 +30,8 @@ const specialCamouflages = {
     },
 
     warzone: {
-      '?': null,
-      '??': null,
+      'Fizz': { amount: 2, type: 'kills_without_reloading', times: 5 },
+      'Nightfang': { amount: 5, type: 'kills_while_under_uav' },
     },
   },
 
@@ -47,8 +47,8 @@ const specialCamouflages = {
     },
 
     warzone: {
-      '?': null,
-      '??': null,
+      'Splattered': { amount: 2, type: 'kills_within_30_seconds', times: 5 },
+      'Dark Paradise': { amount: 10, type: 'kills_while_prone'},
     },
   },
 }
