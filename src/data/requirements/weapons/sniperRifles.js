@@ -51,6 +51,23 @@ const specialCamouflages = {
       '??': null,
     },
   },
+
+  'AMR Mod 4': {
+    multiplayer: {
+      Shadowthorn: { amount: 30, type: 'one_shot_kills' },
+      'Tidal Harmony': { amount: 2, type: 'kills_without_reloading', times: 10 },
+    },
+
+    zombies: {
+      Scarthorn: { amount: 5, type: 'critical_kills_rapidly', times: 15 },
+      'Marine Swirl': { amount: 10, type: 'kills_without_reloading', times: 15 },
+    },
+
+    warzone: {
+      Bramblethorn: { amount: 2, type: 'kills_within_30_seconds', times: 5 },
+      'Sunlit Shoal': { amount: 2, type: 'kills_while_prone_within_20_seconds', times: 5 },
+    },
+  },
 }
 
 export default {

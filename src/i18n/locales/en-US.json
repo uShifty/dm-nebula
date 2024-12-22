@@ -305,6 +305,7 @@
       "kills_while_under_uav": "{amount} kills while under an enemy UAV",
       "kills_while_impaired_by_tactical": "{amount} kills while enemies impaired by your tacticals",
       "kills_while_prone": "{amount} kills while prone",
+      "kills_while_prone_within_20_seconds": "{amount} kills while prone within 20 seconds {times} times",
       "kills_with_4x_or_higher_magnification_scope": "{amount} kills with a 4x or higher magnification scope",
       "kills_with_brain_rot_equipped": "{amount} kills with Brain Rot equipped",
       "kills_with_cryo_freeze_equipped": "{amount} kills with Cryo Freeze equipped",
