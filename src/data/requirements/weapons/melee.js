@@ -35,11 +35,27 @@ const specialCamouflages = {
     },
   },
 
+  'Cleaver': {
+    multiplayer: {
+      'Creepy Crypt': { amount: 50, type: 'kills_while_strategist_combat_specialty_is_active' },
+      'Luminous Leopard': { type: 'one_kill_without_taking_damage', times: 30 },
+    },
+
+    zombies: {
+      'Tragic Tomb': { amount: 75, type: 'armored_zombie_kills' },
+      'Shock Leopard': { amount: 300, type: 'kills_at_rare_rarity_or_higher' },
+    },
+
+    warzone: {
+      'Ghostly Grounds': { amount: 3, type: 'kills_in_a_single_match', times: 5 },
+      'Blazing Leopard': { amount: 5, type: 'kills_while_under_uav' },
+    },
+  },
+
   'Power Drill': {
     multiplayer: {
       'Twilight Toadstool': { amount: 50, type: 'kills_while_recon_combat_speciality_is_active' },
-
-      'Thermal': { amount: 15, type: 'kills_shortly_after_sprinting' },
+      Thermal: { amount: 15, type: 'kills_shortly_after_sprinting' },
     },
 
     zombies: {
@@ -49,7 +65,7 @@ const specialCamouflages = {
 
     warzone: {
       'Faerie Fungi': { amount: 3, type: 'kills_in_a_single_match', times: 5 },
-      'Alloy': { amount: 2, type: 'kills_without_taking_damage', times: 5 },
+      Alloy: { amount: 2, type: 'kills_without_taking_damage', times: 5 },
     },
   },
 }

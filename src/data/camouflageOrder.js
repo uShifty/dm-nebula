@@ -249,6 +249,12 @@ const specialOrder = [
   'Banished',
   'Contort',
 
+  // Cleaver
+  'Creepy Crypt',
+  'Luminous Leopard',
+  'Tragic Tomb',
+  'Shock Leopard',
+
   // Power Drill
   'Twilight Toadstool',
   'Thermal',
