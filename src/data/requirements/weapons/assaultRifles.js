@@ -3,7 +3,7 @@ import assaultRifles from '@/data/weapons/assaultRifles'
 const specialCamouflages = {
   'XM4': {
     multiplayer: {
-      Muddled: { amount: 30, type: 'kills_shortly_after_sprinting' },
+      Muddled: { amount: 30, type: 'kills_after_sprinting' },
       Machina: { type: 'one_kill_without_taking_damage', times: 30 },
     },
 
@@ -54,7 +54,7 @@ const specialCamouflages = {
 
   'GPR 91': {
     multiplayer: {
-      'Ambush': { amount: 30, type: 'kills_shortly_after_sprinting' },
+      'Ambush': { amount: 30, type: 'kills_after_sprinting' },
       'Cacti Cathode': { amount: 50, type: 'kills_while_moving' },
     },
 
@@ -122,7 +122,7 @@ const specialCamouflages = {
 
   'Krig C': {
     multiplayer: {
-      Monochrome: { amount: 30, type: 'kills_shortly_after_sprinting' },
+      Monochrome: { amount: 30, type: 'kills_after_sprinting' },
       Dreadshade: { amount: 50, type: 'kills_while_moving' },
     },
 

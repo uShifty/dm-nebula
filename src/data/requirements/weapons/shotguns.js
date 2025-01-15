@@ -4,7 +4,7 @@ const specialCamouflages = {
   'Marine SP': {
     multiplayer: {
       'Blueberry Lime': { amount: 30, type: 'hipfire_kills' },
-      'Chromed Out': { amount: 30, type: 'kills_shortly_after_sprinting' },
+      'Chromed Out': { amount: 30, type: 'kills_after_sprinting' },
     },
 
     zombies: {

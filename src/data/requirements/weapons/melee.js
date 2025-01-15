@@ -13,8 +13,8 @@ const specialCamouflages = {
     },
 
     warzone: {
-      '?': null,
-      '??': null,
+      'Dying Ember':  { amount: 5, type: 'kills_after_sprinting' },
+      'Sunrise Leopard': { amount: 5, type: 'kills_after_taking_damage' },
     },
   },
 
@@ -30,8 +30,8 @@ const specialCamouflages = {
     },
 
     warzone: {
-      '?': null,
-      '??': null,
+      'Skew': { amount: 5, type: 'kills_while_under_uav' },
+      'Spooked': { amount: 5, type: 'kills_on_affected_enemies_with_tacticals' },
     },
   },
 
@@ -55,7 +55,7 @@ const specialCamouflages = {
   'Power Drill': {
     multiplayer: {
       'Twilight Toadstool': { amount: 50, type: 'kills_while_recon_combat_speciality_is_active' },
-      Thermal: { amount: 15, type: 'kills_shortly_after_sprinting' },
+      Thermal: { amount: 15, type: 'kills_after_sprinting' },
     },
 
     zombies: {

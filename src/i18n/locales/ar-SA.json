@@ -281,7 +281,7 @@
       "kills_sm": "{amount} من القتلات في مباراة واحدة {times} مرات",
       "kills_at_rare_rarity_or_higher": "{amount} من القتلات عند ندرة نادرة أو أعلى",
       "kills_in_a_single_shot": "{amount} من القتلات في طلقة واحدة {times} مرات",
-      "kills_shortly_after_sprinting": "{amount} من القتلات بعد الركض بفترة قصيرة",
+      "kills_after_sprinting": "{amount} من القتلات بعد الركض بفترة قصيرة",
       "kills_shortly_after_switching_weapons": "{amount} من القتلات بعد تبديل الأسلحة بفترة قصيرة",
       "kills_while_enforcer_combat_specialty_is_active": "{amount} من القتلات أثناء تفعيل ميزة القتال Enforcer",
       "kills_while_moving": "{amount} من القتلات أثناء الحركة",

@@ -289,7 +289,7 @@
         "kills_sm": "{amount} abates em uma única partida {times} vezes",
         "kills_at_rare_rarity_or_higher": "{amount} abates em raridade rara ou superior",
         "kills_in_a_single_shot": "{amount} abates com um único disparo {times} vezes",
-        "kills_shortly_after_sprinting": "{amount} abates logo após correr",
+        "kills_after_sprinting": "{amount} abates logo após correr",
         "kills_shortly_after_switching_weapons": "{amount} abates logo após trocar de arma",
         "kills_while_enforcer_combat_specialty_is_active": "{amount} abates enquanto a especialidade de combate Enforcer está ativa",
         "kills_while_moving": "{amount} abates enquanto se move",

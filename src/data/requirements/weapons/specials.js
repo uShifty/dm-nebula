@@ -3,7 +3,7 @@ import specials from '@/data/weapons/specials'
 const specialCamouflages = {
   'Sirin 9mm': {
     multiplayer: {
-      Nebulon: { amount: 30, type: 'kills_shortly_after_sprinting' },
+      Nebulon: { amount: 30, type: 'kills_after_sprinting' },
       Enchanted: { amount: 50, type: 'kills_while_moving' },
     },
 

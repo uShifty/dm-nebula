@@ -3,7 +3,7 @@ import lightMachineGuns from '@/data/weapons/lightMachineGuns'
 const specialCamouflages = {
   'PU-21': {
     multiplayer: {
-      'Neon Bath': { amount: 30, type: 'kills_shortly_after_sprinting' },
+      'Neon Bath': { amount: 30, type: 'kills_after_sprinting' },
       'Vigilance': { amount: 2, type: 'kills_without_reloading', times: 10 },
     },
 

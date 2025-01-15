@@ -3,7 +3,7 @@ import subMachineGuns from '@/data/weapons/subMachineGuns'
 const specialCamouflages = {
   'C9': {
     multiplayer: {
-      Heatwave: { amount: 30, type: 'kills_shortly_after_sprinting' },
+      Heatwave: { amount: 30, type: 'kills_after_sprinting' },
       Panther: { amount: 50, type: 'kills_with_suppressor' },
     },
 
@@ -31,7 +31,7 @@ const specialCamouflages = {
 
     warzone: {
       'Raven': { amount: 10, type: 'hipfire_kills' },
-      'Radical': { amount: 5, type: 'kills_shortly_after_sprinting' },
+      'Radical': { amount: 5, type: 'kills_after_sprinting' },
     },
   },
 
@@ -71,7 +71,7 @@ const specialCamouflages = {
 
   'Jackal PDW': {
     multiplayer: {
-      'Deep End': { amount: 30, type: 'kills_shortly_after_sprinting' },
+      'Deep End': { amount: 30, type: 'kills_after_sprinting' },
       'Dread': { amount: 30, type: 'point_blank_kills' },
     },
 
@@ -89,7 +89,7 @@ const specialCamouflages = {
   'Kompakt 92': {
     multiplayer: {
       Kingfisher: { amount: 30, type: 'hipfire_kills' },
-      Blackthorn: { amount: 30, type: 'kills_shortly_after_sprinting' },
+      Blackthorn: { amount: 30, type: 'kills_after_sprinting' },
     },
 
     zombies: {
